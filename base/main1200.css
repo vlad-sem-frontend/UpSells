@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-p';
+  src: url(../fonts/static/Raleway-Regular.ttf);
+}
+
+@media (max-width: 1200px) {
+  main .pluses-text {
+    margin-top: 30px;
+  }
+  main .second-content {
+    margin-top: 100px;
+  }
+  main .second-content__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .features {
+    margin-top: 100px;
+  }
+  main .features__content-long-text {
+    margin-top: 30px;
+  }
+  main .features__content-button--style {
+    margin-top: 30px;
+  }
+  main .features__content-text {
+    margin-top: 30px;
+  }
+  main .features__content-img {
+    margin-top: 20px;
+  }
+  main .features__content-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .display-rev-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main .display-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .features__content-button--style {
+    width: 100%;
+  }
+  main .pricing__content-block {
+    margin-top: 20px;
+    border: 0;
+    background: #0e2e29;
+    border-radius: 10px;
+  }
+  main .pricing__content-block-mini {
+    border-bottom: 2px solid white;
+  }
+  main .pricing__content-block-mini--active {
+    border-bottom: 2px solid #0e2e29;
+  }
+  main .pricing__content-block1 {
+    background: #1eebcd;
+    border-radius: 10px;
+  }
+  main .reviews {
+    padding-bottom: 40px;
+  }
+  main .reviews__content {
+    margin-top: 0;
+  }
+  main .faq {
+    margin-top: 100px;
+  }
+  main .faq__content-quest {
+    margin-top: 60px;
+  }
+  main .faq__content-text {
+    margin-top: 15px;
+  }
+  main .faq__content-button {
+    margin-top: 30px;
+  }
+  main .pricing {
+    margin-top: 100px;
+  }
+  main .pricing__content {
+    margin-top: 50px;
+  }
+  main .list {
+    margin-top: 100px;
+  }
+  main .list__title {
+    margin-bottom: 50px;
+  }
+  main .list__content-title {
+    margin-top: 15px;
+  }
+  main .list__content-rectangle {
+    width: 300px;
+  }
+  footer .footer__right {
+    margin-top: 30px;
+  }
+  .p-style {
+    font-size: 20px;
+  }
+  .just-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .just-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .display-none-mobile {
+    display: block;
+  }
+  .display-none-ol {
+    display: none;
+  }
+  .header-mini {
+    display: none;
+  }
+  .header-big {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main1200.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACP,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,qCAAqC;;;AAE7C,UAAU;EACP,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,wCAAwC;;;ADJhD,MAAM,EAAE,SAAS,EAAE,MAAM;EAUvB,AAAA,YAAY,CAAC;IACX,OAAO,EAAE,IAAI;GACd;EACD,AAAA,WAAW,CAAC;IACV,OAAO,EAAE,KAAK;GACf",
+    "sources": [
+        "main1400.scss",
+        "_font.scss"
+    ],
+    "names": [],
+    "file": "main1400.css"
+}

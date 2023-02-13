@@ -1,0 +1,138 @@
+@import "font";
+
+@media (max-width: 1200px) {
+  main {
+    .pluses-text {
+      margin-top: 30px;
+    }
+    .second-content {
+      margin-top: 100px;
+      &__img {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .features {
+      &__content {
+        &-long-text {
+          margin-top: 30px;
+        }
+        &-button {
+          &--style {
+            margin-top: 30px;
+          }
+        }
+        &-text {
+          margin-top: 30px;
+        }
+        &-img {
+          margin-top: 20px;
+        }
+      }
+      margin-top: 100px;
+      &__content-img {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .display-rev-column {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .display-center {
+      display: flex;
+      justify-content: center;
+    }
+    .features__content-button--style {
+      width: 100%;
+    }
+
+    .pricing__content-block {
+      margin-top: 20px;
+      border: 0;
+      background: #0e2e29;
+      border-radius: 10px;
+      &-mini {
+        border-bottom: 2px solid white;
+        &--active {
+          border-bottom: 2px solid #0e2e29;
+        }
+      }
+    }
+    .pricing__content-block1 {
+      background: #1eebcd;
+      border-radius: 10px;
+    }
+    .reviews {
+      padding-bottom: 40px;
+      &__content {
+        margin-top: 0;
+      }
+    }
+
+    .faq {
+      margin-top: 100px;
+      &__content {
+        &-quest {
+          margin-top: 60px;
+        }
+        &-text {
+          margin-top: 15px;
+        }
+        &-button {
+          margin-top: 30px;
+        }
+      }
+    }
+    .pricing {
+      margin-top: 100px;
+      &__content {
+        margin-top: 50px;
+      }
+    }
+    .list {
+      margin-top: 100px;
+      &__title {
+        margin-bottom: 50px;
+      }
+      &__content {
+        &-title {
+          margin-top: 15px;
+        }
+        &-rectangle {
+          width: 300px;
+        }
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__right {
+        margin-top: 30px;
+      }
+    }
+  }
+  .p-style {
+    font-size: 20px;
+  }
+  .just-start {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .just-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .display-none-mobile {
+    display: block;
+  }
+  .display-none-ol {
+    display: none;
+  }
+  .header-mini {
+    display: none;
+  }
+  .header-big {
+    display: block;
+  }
+}

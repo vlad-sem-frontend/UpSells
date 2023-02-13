@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-p';
+  src: url(../fonts/static/Raleway-Regular.ttf);
+}
+
+@media (max-width: 1400px) {
+  .header-mini {
+    display: none;
+  }
+  .header-big {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main1400.css.map */

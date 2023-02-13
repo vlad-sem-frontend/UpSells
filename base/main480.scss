@@ -1,0 +1,25 @@
+@import "font";
+@media (max-width: 480px) {
+  .display-none-mobile2 {
+    display: none;
+  }
+
+  .header-mini {
+    display: block;
+  }
+  .header-big {
+    display: none;
+  }
+  main {
+    .h1-style {
+      font-size: 32px;
+    }
+    .h4-style {
+      font-size: 24px;
+    }
+  }
+  .display-center {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+@import "font";
+
+@media (max-width: 1400px) {
+  main {
+    .first-content {
+      &__img {
+        &--style {
+        }
+      }
+    }
+  }
+
+  .header-mini {
+    display: none;
+  }
+  .header-big {
+    display: block;
+  }
+}

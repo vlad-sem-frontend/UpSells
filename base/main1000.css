@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-p';
+  src: url(../fonts/static/Raleway-Regular.ttf);
+}
+
+@media (max-width: 1000px) {
+  main .fon1 {
+    width: 100%;
+  }
+  main .header-mini {
+    display: none;
+  }
+  main .header-big {
+    display: block;
+  }
+  main .p-style {
+    font-size: 18px;
+  }
+  main .h4-style {
+    font-size: 30px;
+  }
+  main .h1-style {
+    font-size: 50px;
+  }
+  main .just-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main .just-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  main .display-none-mobile {
+    display: none;
+  }
+  main .display-none-ol {
+    display: block;
+  }
+  main .features__content-img--style {
+    width: 100%;
+    height: 100%;
+  }
+  main .second-content__img--style {
+    width: 100%;
+    height: 100%;
+  }
+  main .pricing__content {
+    margin-top: 0;
+  }
+  .navbar-box {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main1000.css.map */
